@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "Era uma Vez...",
         alternativas: [
             {
-                texto: "Um Cordeiro",
-                afirmacao: "Um cordeiro saltitante. "
-            },
+                texto: "Um homem",
+                afirmacao: "Dentro de sua cabana."
+            }, 
             {
-                texto: "Um Cachorro",
-                afirmacao: "Um cachorro leal e grande"
+                texto: "Uma mulher",
+                afirmacao: "Dentro de sua cabana"
             }
         ]
     },
@@ -22,12 +22,12 @@ const perguntas = [
         enunciado: "Qual o caminho ele tomou?",
         alternativas: [
             {
-                texto: "Um montanha de lava",
-                afirmacao: "Caminhou sem rumo até encontrar uma grande montanha"
+                texto: "Um deserto",
+                afirmacao: "Caminhou sem rumo até encontrar água"
             },
             {
                 texto: "Um deserto",
-                afirmacao: "Caminhou sem direção até chegar num deserto, arido e seco"
+                afirmacao: "Caminhou sem direção até encontrar água"
             }
         ]
     },
@@ -35,8 +35,8 @@ const perguntas = [
         enunciado: "O que ele fez ao chegar em destino?",
         alternativas: [
             {
-                texto: "procurou por alguém",
-                afirmacao: "olhando em todas as direções, procurando encontrar alguém."
+                texto: "procurou por água",
+                afirmacao: "olhando em todas as direções, procurando um poço ou uma parte umida para cavar."
             },
             {
                 texto: "Refletiu sozinho",
